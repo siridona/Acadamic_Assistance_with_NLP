@@ -1,0 +1,51 @@
+question,answer
+what is a computer network?,a system of interconnected computers and computerized peripherals such as printers is called a computer network.
+what is the aim of a computer network?,the aim of the computer network is the sharing of resources among various devices and also useful for communication between devices.
+how do computers connect to each other?,computers may connect to each other by either wired or wireless media.
+what are the two possible types of connections for communication between two devices?,point-to-point and multi-point.
+what does simplex mode define?,transmission mode in which communication is unidirectional.
+what is half-duplex mode?,"transmission mode in which each station can both transmit and receive, but not at the same time."
+what is full-duplex mode?,transmission mode in which signal going in either direction share the capacity of the link.
+what is full-full duplex mode?,a mode where a node may send and receive at a time but from different nodes.
+what is a network topology?,the arrangement with which computer systems or network devices are connected to each other.
+what is a mesh topology?,"in a mesh topology, every device has a dedicated point - to - point link to every other devices."
+what is a star topology?,"in star topology, each device has a dedicated point - to - point link only to a central controller, usually called a hub."
+what is a tree topology?,"in tree topology, nodes are linked to a central hub that controls the traffic to the network."
+what is a bus topology?,in bus topology one long cable acts as a background to link all the devices in the network.
+what is a ring topology?,"in ring topology, each device has a decided point- to - point line configuration only with the two devices on either side of it."
+what is a protocol?,a set of rules that govern data communications.
+what are the key elements of a protocol?,"message encoding, message format, message encapsulation, message size, message delivery options, and message timing."
+what is a repeater?,a network hardware device that operates at the physical layer and regenerates the signal over the same network to extend the length to which the signal can be transmitted.
+what is a bridge?,"a network hardware device that operates at data link layer, a bridge is a repeater with the add on the functionality of filtering content by reading the mac addresses of source and destination."
+what is a hub?,a hub is basically a multiport repeater.
+what is a switch?,"a switch is a multiport bridge with a buffer. the switch can perform error checking before forwarding data, making it very efficient as it does not forward packets that have errors and only forward good packets selectively to the correct port."
+what is a router?,a router is a device like a switch that routes data packets based on their ip addresses.
+what is a gateway?,a gateway is a passage to connect two networks together that may work upon different networking models.
+what is a local area network (lan)?,"local area networks, generally called lans, are privately-owned networks within a single building or campus of up to a few kilometers in size."
+what is a metropolitan area network (man)?,a metropolitan area network is a network that covers a larger geographic area by interconnecting a different lan to form a larger network.
+what is a wide area network (wan)?,a wide area network is a network that extends over a large geographical area such as states or countries.
+what is a mac (media access control) address?,mac addresses are assigned directly by the hardware manufacturer and are also referred to as hardware addresses.
+what is an ip (internet protocol) address?,"an ip address identifies a device on the global internet. an ipv4 address consists of 32 bits, usually written as four decimal numbers, or a dotted quad."
+what is the iso-osi reference model?,"the iso-osi (open systems interconnection) reference model deals with connecting open systems—that is, systems that are open for communication with other systems and has seven layers."
+what are the principles applied to arrive at the seven layers of the osi model?,1.a layer should be created where a different perception is needed. 2.each layer should perform a well-defined function.3.the function of each layer should be chosen with an eye toward defining internationally standardized protocols.4. the layer boundaries should be chosen to minimize the information flow across the interfaces.5.the number of layers should be large enough that distinct functions need not be thrown together in the same layer out of necessity and small enough that the architecture does not become heavy.
+what does the application layer contain?,a variety of protocols that are commonly needed by users.
+what is the function of the presentation layer?,monitors message format and interpretation of transmitted information through: 1.translation 2.encryption 3.compression
+what does the session layer allow two systems to do?,"establish, use and terminate a connection."
+what is the responsibility of the transport layer?,delivery of the entire message from the source host to destination host.
+what is the network layer responsible for?,manages the delivery of individual data packets from source to destination through appropriate addressing and routing.
+what is the function of the data link layer?,responsible for the reliable transfer of data frames from one node to another connected by the physical layer.
+what is the physical layer responsible for?,"the physical characteristics of the media, representation of bits, data rate, synchronization of bits, line configuration, physical topology and transmission mode"
+what is bandwidth?,bandwidth refers to the range of frequencies contained in a composite signal or the range of frequencies a channel can pass.
+what is throughput?,throughput is a measure of how fast we can actually send data through a network.
+what is the nyquist formula for maximum data rate?,capacity = 2 * bandwidth * log2(l) bits/sec
+what is the shannon formula for maximum data rate?,capacity = bandwidth * log2(1 + snr) bits/sec
+what is network delay?,the time required for a packet to send from one node to another.
+what is the difference between transmission delay and propagation delay?,"transmission delay is the time to load the packet into the channel, while propagation delay is the time to reach the destination."
+what is twisted pair cable?,the least expensive and most widely used guided transmission medium.
+what is the difference between unshielded twisted pair (utp) and shielded twisted pair (stp)?,"stp has an extra layer of shielding that protects the data from interference, while utp does not."
+what is coaxial cable?,"a coaxial cable has a central core conductor of solid or wire (usually copper) enclosed in an insulating sheath, which again is encased in an outer conductor of metal foil."
+what are the different types of coaxial cable standards?,"rg-58, rg-59, rg-6, and rg-11."
+what is fibre optic cable?,fibre optic is a cable that holds the optical fibres coated in plastic that are used to send the data by pulses of light.
+what is the critical angle in fibre optic cable?,the angle of incidence above which the light is trapped inside the fiber and can propagate for many kilo meters with virtually no loss.
+what is multiplexing?,the sharing of a medium or bandwidth.
+what are the two types of multiplexing?,frequency division multiplexing (fdm) and time division multiplexing (tdm)

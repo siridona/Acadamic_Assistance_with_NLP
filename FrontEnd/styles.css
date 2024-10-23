@@ -1,0 +1,313 @@
+
+
+
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; 
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('Your\ paragraph\ text.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+}
+
+.navbar {
+    background-color: rgba(0, 0, 0, 0.192); 
+    color: #007bff; 
+    padding: 10px 20px; 
+    display: flex;
+    justify-content: space-between; 
+    align-items: center; 
+    margin-bottom: 110px; 
+    border-radius: 30px; 
+}
+
+.icons {
+    display: flex;
+    align-items: center; 
+    background-color: rgba(255, 255, 255, 0);
+    border-radius: 30px;
+    padding-top : 3px;
+    padding-bottom: 3px;
+    padding-right: 10px;
+}
+
+.icon {
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px;
+    border-radius: 10px; 
+    margin-left: 10px; 
+    background-color: #e23720; 
+}
+
+.background-container{
+    position: relative;
+    display: flex;
+}
+
+
+
+.icon-image {
+    width: 100%; 
+    height: auto;
+}
+
+.ppticon {
+    overflow: hidden; 
+    width: 30px; 
+    height: 30px;
+    border-radius: 50px; 
+    margin-left: 3px; 
+    background-color: #ffffff;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+   
+}
+
+.ppticon-image{
+    width: 100%;
+    height: auto;
+    
+}
+@keyframes rainbowBorderAnimation {
+    0% {
+        border-color: #ff0000; /* Red */
+    }
+    16.7% {
+        border-color: #ff7f00; /* Orange */
+    }
+    33.3% {
+        border-color: #ffff00; /* Yellow */
+    }
+    50% {
+        border-color: #00ff00; /* Green */
+    }
+    66.6% {
+        border-color: #0000ff; /* Blue */
+    }
+    83.3% {
+        border-color: #4b0082; /* Indigo */
+    }
+    100% {
+        border-color: #9400d3; /* Violet */
+    }
+}
+
+
+
+.brand {
+    position:relative;
+    background-color: rgba(255, 255, 255, 0);
+    font-size: 35px; 
+    font-weight: 100;
+    font-family: 'Courier New', Courier, monospace;
+    color: #ffffff; 
+    border-radius: 30px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+.brand::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: inherit;
+    border: 0.5px solid transparent;
+}
+
+@keyframes rainbowBorderAnimation1 {
+    0% {
+        border-color: #ff0000; /* Red */
+    }
+    16.7% {
+        border-color: #ff7f00; /* Orange */
+    }
+    33.3% {
+        border-color: #ffff00; /* Yellow */
+    }
+    50% {
+        border-color: #00ff00; /* Green */
+    }
+    66.6% {
+        border-color: #0000ff; /* Blue */
+    }
+    83.3% {
+        border-color: #4b0082; /* Indigo */
+    }
+    100% {
+        border-color: #9400d3; /* Violet */
+    }
+}
+
+
+.chatbox-container {
+    flex: 1; /* Allow the chatbox-container to grow and fill available space */
+    margin-right: 10px; /* Margin between chatbox-container and browse-files */
+    padding: 10px;
+    background-color: #dddddde3 !important; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column-reverse; 
+    border: 2px solid transparent;
+    overflow: hidden;
+    height: calc(80vh - 150px); /* Adjust the vertical height */
+    margin-left: 10px;
+}
+
+.browse-files {
+    width: 22%; /* Fixed width */
+    padding: 10px;
+    background-color: #191620c2 !important; 
+    border-radius: 10px; 
+    display: flex;
+    flex-direction: column; 
+    border: 1px solid transparent;
+    overflow: hidden;
+    height: calc(80vh - 150px); 
+    margin-right: 10px;
+}
+
+.add-files{
+    position: relative;
+    margin: auto;
+    background-color: rgb(20, 20, 20);
+    border-radius: 15px;
+    width: 60%;
+    padding: 40px;
+  
+
+}
+.add-files-text{
+    font-size: 17px; /* Adjust the font size of the text */
+    position: relative; /* Set to relative */
+    margin-top: 5px; /* Move 5px down from the top */
+    margin-left: 5px; /* Move 5px from the left */
+    /* Adjust for padding */
+    top: calc(-40px + 20px);
+    left: calc(-40px + 20px);
+    text-align: left;
+    color: white;
+}
+
+
+
+
+#browse {
+    margin: 0 5px 0 5px;
+    display: block; /* Make it a block element to occupy full width */
+    width: 50%; /* Set the width of the button */
+    padding: 10px;
+    background-color: #7a7a7aa2; /* Background color of the button */
+    border: 2px solid transparent; /* Remove button border */
+    border-color: white;
+    bottom: 2px;
+    left: 2px;
+    border-radius: 7px; /* Apply square rounded corners */
+    cursor: pointer; /* Show cursor as pointer on hover */
+    color: white;
+}
+
+#browse:hover {
+    background-color: #969696;
+}
+
+
+.chatbox {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+}
+
+.input-container {
+    display: flex;
+    align-items: center; 
+    padding-top: 20px; 
+    justify-content: space-between;
+}
+
+#user-input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+#send-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+}
+
+#send-button:hover {
+    background-color: #0056b3;
+}
+
+.chatbot-info {
+    background-color: #e23720; 
+    color: white; 
+    padding: 10px; 
+    border-radius: 10px; 
+    font-size: 18px; 
+    display: inline-block; 
+    max-width: max-content; 
+}
+
+.heading{
+    color: black !important; 
+    padding: 10px; 
+    border-radius: 35px; 
+    font-size: 18px; 
+    display: inline-block; 
+     
+    background-color: rgba(255, 255, 255, 0.425);
+
+}
+
+
+.user-message {
+    display: flex;
+    justify-content: flex-end;
+    text-align: right; 
+    display: inline-block; 
+    background-color: #008cff96; 
+    color: rgb(255, 255, 255); 
+    padding: 10px; 
+    border-radius: 10px; 
+    margin-top: 20px;
+    margin-bottom: 10px; 
+    margin-left: auto;
+    max-width: max-content; 
+}
+
+
+.chat-message.user {
+    text-align: right;
+    background-color: #eaeaea;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    max-width: 70%;
+}
+
+.file-name {
+    color: white;
+    margin-top: 5px; /* Adjust the margin as needed */
+    font-family: Arial, Helvetica, sans-serif;
+}

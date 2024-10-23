@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Chat PDF</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            overflow: hidden; /* to prevent scrolling */
+            background: linear-gradient(45deg, #ee0979, #ff6a00, #ffeb3b, #00ff80, #00ffff, #ff00ff, #ee0979);
+            background-size: 600% 600%; /* adjust the size as needed */
+            animation: gradient 15s ease infinite; /* adjust the animation duration */
+        }
+        
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        .header {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+        }
+        .header a {
+            color: #000;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        .welcome-message {
+            text-align: center;
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #000;
+        }
+        .small-text {
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <a href="loginbg.html">Login</a>
+        <a href="signupbg.html">Sign Up</a>
+    </div>
+    <div>
+        <div class="welcome-message">
+            Welcome to Chat PDF
+        </div>
+        <div class="small-text">
+            Your Personalized Chat Box
+        </div>
+    </div>
+</body>
+</html>
